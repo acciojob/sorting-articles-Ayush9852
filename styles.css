@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.app.goo.gl/BzKLNk4UhxrQspEe8'); /* Set your background image URL here */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #container {
+            background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding shadow effect */
+        }
+        #band {
+            list-style-type: none;
+            padding: 0;
+        }
+        #band li {
+            margin-bottom: 5px;
+            list-style: square; /* Square-shaped bullets */
+        }
